@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+vach_app/
+__pycache__/
+*.pyc
+
+# Environment Secrets (NEVER Upload these!)
+.env
+.DS_Store
+
+# Misc
+dist/
+build/
