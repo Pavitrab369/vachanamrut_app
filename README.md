@@ -27,6 +27,7 @@ The app opens on `http://localhost:5173`
 ## Using Docker
 
 ```bash
+docker-compose build
 docker-compose up
 ```
 
