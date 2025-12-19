@@ -9,8 +9,9 @@ from app.services.brain import brain_service
 app = FastAPI(title="Vachanamrut AI API")
 
 origins = [
-    "http://localhost:5173",                 # For local development
-    "https://vachanamrut-web.onrender.com"   # <--- YOUR RENDER FRONTEND URL
+    "http://localhost:5173",  
+    "http://127.0.0.1:5173",    # <--- Add this
+    "*"                         # <--- Add this TEMPORARILY to debug               # For local development   # <--- YOUR RENDER FRONTEND URL
 ]
 
 app.add_middleware(

@@ -2,7 +2,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:3000"
+      - "5173:5173"
     env_file:
       - .env
     depends_on:
@@ -11,6 +11,6 @@ services:
   backend:
     build: ./backend
     ports:
-      - "8000:8000"
+      - "10000:10000"
     env_file:
       - .env
